@@ -22,6 +22,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 框架全局异常.
  * The type Framework exception.
  *
  * @Author: jimin.jm @alibaba-inc.com

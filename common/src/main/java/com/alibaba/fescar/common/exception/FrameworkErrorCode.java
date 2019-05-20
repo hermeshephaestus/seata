@@ -17,6 +17,7 @@
 package com.alibaba.fescar.common.exception;
 
 /**
+ * 框架全局异常code定义.
  * The enum Framework error code.
  *
  * @Author: jimin.jm @alibaba-inc.com

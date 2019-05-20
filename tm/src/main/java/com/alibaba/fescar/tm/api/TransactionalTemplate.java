@@ -19,6 +19,7 @@ package com.alibaba.fescar.tm.api;
 import com.alibaba.fescar.core.exception.TransactionException;
 
 /**
+ * 全局事务执行业务逻辑的模板.
  * Template of executing business logic with a global transaction.
  */
 public class TransactionalTemplate {

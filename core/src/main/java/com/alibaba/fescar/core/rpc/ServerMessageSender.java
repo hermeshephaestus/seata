@@ -22,6 +22,7 @@ import java.util.concurrent.TimeoutException;
 import io.netty.channel.Channel;
 
 /**
+ * 服务端消息发送器
  * The interface Server message sender.
  *
  * @Author: jimin.jm @alibaba-inc.com

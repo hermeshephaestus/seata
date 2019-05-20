@@ -21,6 +21,7 @@ import com.alibaba.fescar.core.protocol.AbstractMessage;
 import io.netty.channel.Channel;
 
 /**
+ * 注册者消息监听器
  * The interface Register msg listener.
  *
  * @Author: jimin.jm @alibaba-inc.com

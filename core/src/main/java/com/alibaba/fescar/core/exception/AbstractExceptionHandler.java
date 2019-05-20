@@ -25,6 +25,7 @@ import com.alibaba.fescar.core.protocol.transaction.AbstractTransactionResponse;
  */
 public abstract class AbstractExceptionHandler {
 
+    // TODO: 2019-05-19 抽象类内部定义接口 Q001.
     /**
      * The interface Callback.
      *
@@ -54,6 +55,7 @@ public abstract class AbstractExceptionHandler {
             callback.execute(request, response);
             response.setResultCode(ResultCode.Success);
 
+            // TODO: 2019-05-19 系统的异常细分处理. Q002.
         } catch (TransactionException tex) {
             response.setTransactionExceptionCode(tex.getCode());
             response.setResultCode(ResultCode.Failed);

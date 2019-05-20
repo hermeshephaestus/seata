@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.service;
 
 /**
+ * 观察服务地址列表变化
  * Watch for server address list change
  */
 public interface AddressWatcher {

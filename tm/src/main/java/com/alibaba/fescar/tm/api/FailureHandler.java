@@ -17,6 +17,7 @@
 package com.alibaba.fescar.tm.api;
 
 /**
+ * 异常处理机制.
  * Callback on failure.
  */
 public interface FailureHandler {

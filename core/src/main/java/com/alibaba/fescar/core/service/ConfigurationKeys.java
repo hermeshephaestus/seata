@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.service;
 
 /**
+ * 配置key
  * The type Configuration keys.
  */
 public class ConfigurationKeys {

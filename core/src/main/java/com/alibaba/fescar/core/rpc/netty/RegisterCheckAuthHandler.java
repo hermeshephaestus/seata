@@ -20,6 +20,7 @@ import com.alibaba.fescar.core.protocol.RegisterRMRequest;
 import com.alibaba.fescar.core.protocol.RegisterTMRequest;
 
 /**
+ * 注册检查.
  * The interface Register check auth handler.
  *
  * @Author: jimin.jm @alibaba-inc.com

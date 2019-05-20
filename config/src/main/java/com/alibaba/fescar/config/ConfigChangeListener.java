@@ -19,6 +19,7 @@ package com.alibaba.fescar.config;
 import java.util.concurrent.ExecutorService;
 
 /**
+ * 配置更改监听器.
  * The interface Config change listener.
  *
  * @Author: jimin.jm @alibaba-inc.com

@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.rpc;
 
 /**
+ * 客户端消息监听.
  * The interface Client message listener.
  *
  * @Author: jimin.jm @alibaba-inc.com

@@ -19,6 +19,7 @@ package com.alibaba.fescar.discovery.loadbalance;
 import java.util.List;
 
 /**
+ * #负载均衡接口.
  * The interface Load balance.
  *
  * @author: jimin.jm @alibaba-inc.com

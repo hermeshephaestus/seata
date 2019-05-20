@@ -19,6 +19,7 @@ package com.alibaba.fescar.common.loader;
 import org.apache.commons.lang.exception.NestableRuntimeException;
 
 /**
+ * 服务增强异常
  * The type Enhanced service not found exception.
  *
  * @Author: jimin.jm @alibaba-inc.com
@@ -83,4 +84,9 @@ public class EnhancedServiceNotFoundException extends NestableRuntimeException {
     public Throwable fillInStackTrace() {
         return this;
     }
+
+//    public static void main(String[] args) {
+//        EnhancedServiceNotFoundException exception = new EnhancedServiceNotFoundException(new RuntimeException("error occurred."));
+//        System.err.println(exception.getCause());
+//    }
 }

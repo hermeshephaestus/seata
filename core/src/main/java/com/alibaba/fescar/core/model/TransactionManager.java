@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.model;
 import com.alibaba.fescar.core.exception.TransactionException;
 
 /**
+ * 事务管理器
  * Transaction Manager.
  *
  * Define a global transaction and control it.
@@ -26,6 +27,7 @@ import com.alibaba.fescar.core.exception.TransactionException;
 public interface TransactionManager {
 
     /**
+     * 开始一个全局事务
      * Begin a new global transaction.
      *
      * @param applicationId           ID of the application who begins this transaction.
@@ -39,6 +41,7 @@ public interface TransactionManager {
     String begin(String applicationId, String transactionServiceGroup, String name, int timeout) throws TransactionException;
 
     /**
+     * 提交一个全局事务
      * Global commit.
      *
      * @param xid XID of the global transaction.
@@ -49,6 +52,7 @@ public interface TransactionManager {
     GlobalStatus commit(String xid) throws TransactionException;
 
     /**
+     * 回滚一个全局事务
      * Global rollback.
      *
      * @param xid XID of the global transaction
@@ -59,6 +63,7 @@ public interface TransactionManager {
     GlobalStatus rollback(String xid) throws TransactionException;
 
     /**
+     * 获取当前事务的状态
      * Get current status of the give transaction.
      *
      * @param xid XID of the global transaction.

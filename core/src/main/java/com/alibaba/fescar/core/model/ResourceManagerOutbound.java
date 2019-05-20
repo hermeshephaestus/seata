@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.model;
 import com.alibaba.fescar.core.exception.TransactionException;
 
 /**
+ * RM给TC发送的出站请求
  * Resource Manager: send outbound request to TC.
  */
 public interface ResourceManagerOutbound {

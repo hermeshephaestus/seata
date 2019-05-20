@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.protocol;
 import java.nio.ByteBuffer;
 
 /**
+ * 合并消息
  * The interface Merged message.
  *
  * @Author: jimin.jm @alibaba-inc.com

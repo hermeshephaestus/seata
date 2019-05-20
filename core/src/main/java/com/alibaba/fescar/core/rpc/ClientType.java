@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.rpc;
 
 /**
+ * client 类型
  * The enum Client type.
  */
 public enum ClientType {

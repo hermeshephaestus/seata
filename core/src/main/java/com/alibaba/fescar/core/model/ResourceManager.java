@@ -24,6 +24,7 @@ import java.util.Map;
 public interface ResourceManager extends ResourceManagerInbound, ResourceManagerOutbound{
 
     /**
+     * 注册所有的资源
      * Register a Resource to be managed by Resource Manager.
      *
      * @param resource The resource to be managed.

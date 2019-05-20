@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.rpc.netty;
 import io.netty.channel.Channel;
 
 /**
+ * netty channel事件监听器
  * The interface Channel event listener.
  *
  * @Author: jimin.jm @alibaba-inc.com

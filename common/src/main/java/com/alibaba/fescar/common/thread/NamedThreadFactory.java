@@ -22,6 +22,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import io.netty.util.concurrent.FastThreadLocalThread;
 
 /**
+ * 带name的线程factory的实现.
  * The type Named thread factory.
  *
  * @Author: jimin.jm @alibaba-inc.com
@@ -73,4 +74,16 @@ public class NamedThreadFactory implements ThreadFactory {
         }
         return thread;
     }
+
+//    public static void main(String[] args) {
+//        NamedThreadFactory threadFactory = new NamedThreadFactory("abc", 10);
+//        Thread thread = threadFactory.newThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.err.println("inner thread.");
+//            }
+//        });
+//        System.err.println(thread);
+//        //Thread[abc_1_10,5,main]
+//    }
 }

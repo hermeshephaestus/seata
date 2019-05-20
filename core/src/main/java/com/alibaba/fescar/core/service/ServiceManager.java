@@ -17,11 +17,13 @@
 package com.alibaba.fescar.core.service;
 
 /**
+ * 服务注册跟发现
  * Service Registry and Discovery
  */
 public interface ServiceManager {
 
     /**
+     * 注册地址到对应的事务服务群组.
      * Register address to txServiceGroup server list.
      *
      * @param txServiceGroup transaction service group (service name)

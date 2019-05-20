@@ -20,6 +20,7 @@ import com.alibaba.fescar.core.protocol.AbstractMessage;
 import com.alibaba.fescar.core.protocol.AbstractResultMessage;
 
 /**
+ * 处理接收到的rpc消息
  * To handle the received RPC message on upper level.
  */
 public interface TransactionMessageHandler {

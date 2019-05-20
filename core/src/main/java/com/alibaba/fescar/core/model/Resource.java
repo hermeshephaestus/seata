@@ -21,6 +21,7 @@ package com.alibaba.fescar.core.model;
  */
 public interface Resource {
 
+    // TODO: 2019-05-19 数据库主从的处理 Q003
     /**
      * Get the resource group id.
      * e.g. master and slave data-source should be with the same resource group id.

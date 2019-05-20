@@ -23,6 +23,7 @@ import com.alibaba.fescar.core.rpc.netty.RegisterCheckAuthHandler;
 import io.netty.channel.ChannelHandlerContext;
 
 /**
+ * 服务端消息监听器
  * The interface Server message listener.
  *
  * @Author: jimin.jm @alibaba-inc.com

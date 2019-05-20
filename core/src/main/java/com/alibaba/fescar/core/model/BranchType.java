@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.model;
 
 /**
+ * 本地事务分支类型.
  * The enum Branch type.
  */
 public enum BranchType {

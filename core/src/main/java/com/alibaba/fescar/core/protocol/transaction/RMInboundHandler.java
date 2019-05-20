@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.protocol.transaction;
 
 /**
+ * rm 入站处理器
  * The interface Rm inbound handler.
  */
 public interface RMInboundHandler {

@@ -87,4 +87,10 @@ public class BlobUtils {
             throw new ShouldNeverHappenException(e);
         }
     }
+
+//    public static void main(String[] args) {
+//        String sql = "select * from user";
+//        Blob blob = BlobUtils.string2blob(sql);
+//        System.err.println(blob);
+//    }
 }

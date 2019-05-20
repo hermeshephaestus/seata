@@ -21,6 +21,7 @@ import java.util.concurrent.ThreadFactory;
 import io.netty.channel.EventLoopGroup;
 
 /**
+ * rpc事件循环群组.
  * The interface Rpc event loop group.
  *
  * @Author: jimin.jm @alibaba-inc.com

@@ -45,4 +45,8 @@ public class ContextCoreLoader {
         return ContextCoreHolder.INSTANCE;
     }
 
+//    public static void main(String[] args) {
+//        ContextCore contextCore = ContextCoreLoader.load();
+//        System.err.println(contextCore);
+//    }
 }

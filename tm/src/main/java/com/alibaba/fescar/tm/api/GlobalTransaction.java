@@ -20,6 +20,7 @@ import com.alibaba.fescar.core.exception.TransactionException;
 import com.alibaba.fescar.core.model.GlobalStatus;
 
 /**
+ * 全局事务api
  * Global transaction.
  */
 public interface GlobalTransaction {

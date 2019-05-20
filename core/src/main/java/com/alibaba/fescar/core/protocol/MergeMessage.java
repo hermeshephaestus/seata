@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.protocol;
 
 /**
+ * 接口合并消息
  * The interface Merge message.
  *
  * @Author: jimin.jm @alibaba-inc.com

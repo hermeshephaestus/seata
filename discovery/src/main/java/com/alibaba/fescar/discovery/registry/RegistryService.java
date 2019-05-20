@@ -20,6 +20,7 @@ import java.net.InetSocketAddress;
 import java.util.List;
 
 /**
+ * 服务注册(订阅,寻找)服务.
  * The interface Registry service.
  *
  * @param <T> the type parameter

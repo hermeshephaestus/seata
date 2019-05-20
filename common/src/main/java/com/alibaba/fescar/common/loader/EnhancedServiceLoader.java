@@ -35,6 +35,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 增强类加载
  * The type Enhanced service loader.
  *
  * @Author: jimin.jm @alibaba-inc.com
@@ -269,4 +270,15 @@ public class EnhancedServiceLoader {
         // 不能使用TCCL,在pandora容器中会导致无法加载plugin中的类
         return EnhancedServiceLoader.class.getClassLoader();
     }
+
+
+//
+//    class ABC {
+//        private String name;
+//    }
+//
+//    public static void main(String[] args) {
+//        ABC load = EnhancedServiceLoader.load(ABC.class);
+//        System.err.println(load);
+//    }
 }

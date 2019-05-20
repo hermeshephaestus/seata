@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.rpc;
 import java.util.concurrent.TimeoutException;
 
 /**
+ * 客户端消息发送器
  * The interface Client message sender.
  *
  * @Author: jimin.jm @alibaba-inc.com

@@ -22,6 +22,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+// TODO: 2019-05-20 与spring结合定义成全局的注解 Q002
 /**
  * The interface Global transactional.
  */

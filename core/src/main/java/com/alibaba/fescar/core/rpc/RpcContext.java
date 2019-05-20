@@ -31,6 +31,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * rpc上下文.
  * The type rpc context.
  *
  * @Author: jimin.jm @alibaba-inc.com

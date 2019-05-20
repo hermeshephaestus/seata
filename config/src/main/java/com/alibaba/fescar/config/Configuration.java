@@ -19,6 +19,7 @@ package com.alibaba.fescar.config;
 import java.util.List;
 
 /**
+ * 配置接口.
  * The interface Configuration.
  *
  * @param <T> the type parameter

@@ -17,6 +17,7 @@
 package com.alibaba.fescar.tm.api;
 
 /**
+ * 全局事务中的业务逻辑的回调处理.
  * Callback for executing business logic in a global transaction.
  */
 public interface TransactionalExecutor {

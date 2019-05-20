@@ -17,6 +17,7 @@
 package com.alibaba.fescar.core.rpc;
 
 /**
+ * 远程服务
  * The interface Remoting service.
  *
  * @Author: jimin.jm @alibaba-inc.com

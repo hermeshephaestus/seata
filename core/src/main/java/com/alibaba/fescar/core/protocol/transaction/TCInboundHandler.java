@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.protocol.transaction;
 import com.alibaba.fescar.core.rpc.RpcContext;
 
 /**
+ * tc 入站处理器
  * The interface Tc inbound handler.
  */
 public interface TCInboundHandler {

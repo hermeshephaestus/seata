@@ -22,6 +22,7 @@ import io.netty.channel.pool.ChannelHealthChecker;
 import io.netty.util.concurrent.Future;
 
 /**
+ * netty channel授权健康检查.
  * The interface Channel auth health checker.
  *
  * @Author: jimin.jm @alibaba-inc.com
@@ -30,7 +31,7 @@ import io.netty.util.concurrent.Future;
  * @FileName: ChannelAuthHealthChecker
  * @Description:
  */
-public interface ChannelAuthHealthChecker extends ChannelHealthChecker{
+public interface ChannelAuthHealthChecker extends ChannelHealthChecker {
     /**
      * The constant ACTIVE.
      */

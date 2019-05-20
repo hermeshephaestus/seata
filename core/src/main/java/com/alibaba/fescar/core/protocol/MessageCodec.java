@@ -19,6 +19,7 @@ package com.alibaba.fescar.core.protocol;
 import io.netty.buffer.ByteBuf;
 
 /**
+ * 消息编码
  * The interface Message codec.
  *
  * @Author: jimin.jm @alibaba-inc.com

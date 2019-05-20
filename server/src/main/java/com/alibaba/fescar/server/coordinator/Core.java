@@ -23,6 +23,7 @@ import com.alibaba.fescar.core.model.TransactionManager;
 import com.alibaba.fescar.server.session.GlobalSession;
 
 /**
+ * 全局事务协调器core interface.
  * The interface Core.
  */
 public interface Core extends TransactionManager, ResourceManagerOutbound {
